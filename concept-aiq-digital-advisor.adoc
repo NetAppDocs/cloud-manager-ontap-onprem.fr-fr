@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concept-aiq-digital-advisor.html 
+keywords: concepts, active iq digital advisor, ontap 
+summary: 'Active IQ Digital Advisor est intégré à l"interface utilisateur BlueXP afin d"optimiser les opérations, la sécurité et les performances de vos clusters ONTAP dans un seul écran.' 
+---
+= Optimisez vos clusters à l'aide de Digital Advisor
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+https://www.netapp.com/services/support/active-iq/["Conseiller digital"^] (Anciennement Active IQ) est intégré à l'interface utilisateur BlueXP afin d'optimiser les opérations, la sécurité et les performances de vos clusters ONTAP dans une fenêtre unique.
+
+
+
+== Caractéristiques
+
+Grâce à Digital Advisor, vous pouvez consulter l'état général de votre système de stockage, des informations générales sur l'intégrité du système, l'inventaire, la planification, les mises à niveau et de précieuses informations.
+
+* Analyse et optimisation de l'état de vos systèmes de stockage
+* Obtenez des informations sur tous les risques encourus par vos systèmes de stockage et sur les actions réalisées pour limiter les risques
+* Analysez les performances de vos périphériques de stockage en consultant le format graphique des données de performances
+* Découvrez en détail les systèmes dont la capacité a dépassé 90 % ou approchent 90 %
+* Obtenez des informations sur le matériel et les logiciels qui ont expiré ou sont à court d'expiration dans les 6 mois à venir
+* Mettez à niveau le logiciel de votre système de stockage et mettez à jour le firmware de votre ONTAP à l'aide d'Ansible
+
+
+
+
+== Systèmes ONTAP pris en charge
+
+Digital Advisor fournit des informations sur tous les systèmes ONTAP sur site et Cloud Volumes ONTAP de votre compte NSS.
+
+
+
+== Le coût
+
+Il n'y a pas de frais d'utilisation de ce service par BlueXP.
+
+
+
+== Fonctionnement de Digital Advisor avec BlueXP
+
+Reportez-vous à la section https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Documentation de Digital Advisor"^] pour plus d'informations.

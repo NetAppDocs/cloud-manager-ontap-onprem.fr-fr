@@ -1,0 +1,105 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
+summary: Découvrez les nouveautés des clusters ONTAP sur site. 
+---
+= Nouveautés des clusters ONTAP sur site
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Découvrez les nouveautés de la gestion de clusters ONTAP sur site dans BlueXP (anciennement Cloud Manager).
+
+
+
+== 18 septembre 2022
+
+Les modifications suivantes ont été introduites avec la version 3.9.22 du connecteur.
+
+
+
+=== Nouvelle page de présentation
+
+Nous avons introduit une nouvelle page de présentation qui contient des informations clés sur un cluster ONTAP sur site. Par exemple, vous pouvez désormais afficher des informations telles que l'efficacité du stockage, la distribution de la capacité et les informations système.
+
+Vous pouvez également consulter des informations détaillées sur l'intégration avec d'autres services cloud NetApp permettant le Tiering des données, la réplication des données et les sauvegardes.
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-overview.png["Capture d'écran affichant la page Présentation d'un cluster ONTAP sur site."]
+
+
+
+=== Volumes redéfinis
+
+Nous avons repensé la page volumes pour fournir un récapitulatif des volumes d'un cluster. Le récapitulatif présente le nombre total de volumes, la quantité de capacité provisionnée, la capacité utilisée et réservée, ainsi que la quantité de données hiérarchisées.
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-volumes.png["Capture d'écran présentant la page volumes d'un cluster ONTAP sur site."]
+
+
+
+== 7 juin 2022
+
+La modification suivante a été introduite avec la version 3.9.19 du connecteur.
+
+
+
+=== Nouvelle vue avancée
+
+Si vous avez besoin d'effectuer une gestion avancée d'un cluster ONTAP sur site, vous pouvez utiliser ONTAP System Manager, qui est une interface de gestion fournie avec un système ONTAP. Nous avons inclus l'interface System Manager directement dans Cloud Manager, afin que vous n'ayez pas besoin de quitter Cloud Manager pour une gestion avancée.
+
+Cette vue avancée est disponible sous forme d'aperçu avec les clusters ONTAP sur site exécutant la version 9.10.0 ou ultérieure. Nous prévoyons d'affiner cette expérience et d'ajouter des améliorations dans les prochaines versions. Envoyez-nous vos commentaires à l'aide de l'outil de chat In-Product.
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-administer-advanced-view.html["En savoir plus sur la vue avancée"].
+
+
+
+== 27 février 2022
+
+
+
+=== Un onglet « ONTAP sur site » est disponible dans le portefeuille numérique.
+
+Vous pouvez désormais afficher un inventaire de vos clusters ONTAP sur site ainsi que les dates d'expiration de leur matériel et de leurs contrats de service. Des informations supplémentaires sur les clusters sont également disponibles.
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html#viewing-cluster-information-and-contract-details["Découvrez comment visualiser les informations importantes concernant votre cluster sur site"]. Vous devez disposer d'un compte sur le site de support NetApp pour les clusters, et vous devez joindre les identifiants NSS à votre compte Cloud Manager.
+
+
+
+== 11 janvier 2022
+
+
+
+=== Les balises que vous ajoutez aux volumes de clusters ONTAP sur site peuvent être utilisées avec le service de balisage.
+
+Les balises que vous ajoutez à un volume sont désormais associées à la fonction de balisage du service modèles d'applications, qui peut vous aider à organiser et simplifier la gestion de vos ressources.
+
+
+
+== 28 novembre 2021
+
+
+
+=== Il a été simplifié l'assistant de création de volumes pour les clusters ONTAP sur site
+
+Nous avons repensé l'assistant de création de volumes pour faciliter l'utilisation et vous pouvez désormais choisir une règle d'exportation personnalisée.
+
+
+
+== 8 mars 2021
+
+
+
+=== Informations sur le cluster ONTAP sur site disponibles dans le service Active IQ
+
+* Lorsque Active IQ affiche la liste de vos clusters sur site (en fonction de votre compte NSS), vous pouvez cliquer sur un bouton pour en faire un link:task-discovering-ontap.html#discovering-clusters-from-the-discovery-page["découvrir le cluster"^] Et ajoutez-le à Cloud Manager Canvas. Vous pouvez ainsi gérer plus facilement tous vos systèmes de stockage à partir de Cloud Manager.
+* Lorsque Active IQ détermine qu'un ou plusieurs clusters nécessitent une mise à jour du firmware, vous pouvez cliquer sur un bouton pour link:task-managing-ontap.html#downloading-new-disk-and-shelf-firmware["Téléchargez le PlayBook Ansible et mettez à niveau le firmware du cluster"^].
+* Une nouvelle link:task-managing-ontap.html#viewing-on-prem-workloads-that-are-candidates-for-the-cloud["Onglet Cloud-Ready workloads"^] Fournit une liste des charges de travail ou des volumes que nous avons identifiés comme idéaux pour déplacer vers le cloud depuis vos clusters ONTAP sur site. Le déplacement de certains de ces volumes pourrait réduire vos coûts et améliorer les performances et la résilience.
++
+Voir link:https://www.netapp.com/knowledge-center/what-is-lift-and-shift["Qu'est-ce que Lift and Shift ?"]
+
+
