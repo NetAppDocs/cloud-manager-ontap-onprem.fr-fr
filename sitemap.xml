@@ -15,14 +15,21 @@
     <url>
       <loc>https://docs.netapp.com/fr-fr/cloud-manager-ontap-onprem/concept-aiq-digital-advisor.html</loc>
       
-      <lastmod>2022-11-17T06:59:32+00:00</lastmod>
+      <lastmod>2022-12-05T17:39:27+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/fr-fr/cloud-manager-ontap-onprem/concept-onprem-ontap.html</loc>
+      
+      <lastmod>2022-12-05T17:39:27+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/fr-fr/cloud-manager-ontap-onprem/</loc>
       
-      <lastmod>2022-11-17T06:59:32+00:00</lastmod>
+      <lastmod>2022-12-05T17:39:27+00:00</lastmod>
       
     </url>
   
@@ -36,21 +43,14 @@
     <url>
       <loc>https://docs.netapp.com/fr-fr/cloud-manager-ontap-onprem//search.html</loc>
       
-      <lastmod>2022-11-17T06:59:51+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/fr-fr/cloud-manager-ontap-onprem/task-administer-advanced-view.html</loc>
-      
-      <lastmod>2022-11-17T06:59:32+00:00</lastmod>
+      <lastmod>2022-12-05T17:39:41+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/fr-fr/cloud-manager-ontap-onprem/task-discovering-ontap.html</loc>
       
-      <lastmod>2022-11-17T06:59:32+00:00</lastmod>
+      <lastmod>2022-12-05T17:39:27+00:00</lastmod>
       
     </url>
   
@@ -62,9 +62,16 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/fr-fr/cloud-manager-ontap-onprem/task-provisioning-ontap.html</loc>
+      <loc>https://docs.netapp.com/fr-fr/cloud-manager-ontap-onprem/task-manage-ontap-connector.html</loc>
       
-      <lastmod>2022-11-17T06:59:32+00:00</lastmod>
+      <lastmod>2022-12-05T17:39:27+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/fr-fr/cloud-manager-ontap-onprem/task-manage-ontap-direct.html</loc>
+      
+      <lastmod>2022-12-05T17:39:27+00:00</lastmod>
       
     </url>
   
@@ -78,14 +85,21 @@
     <url>
       <loc>https://docs.netapp.com/fr-fr/cloud-manager-ontap-onprem/task-support-registration.html</loc>
       
-      <lastmod>2022-11-17T06:59:32+00:00</lastmod>
+      <lastmod>2022-12-05T17:39:27+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/fr-fr/cloud-manager-ontap-onprem/task-view-cluster-info.html</loc>
+      
+      <lastmod>2022-12-05T17:39:27+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/fr-fr/cloud-manager-ontap-onprem/whats-new.html</loc>
       
-      <lastmod>2022-11-17T06:59:32+00:00</lastmod>
+      <lastmod>2022-12-05T17:39:27+00:00</lastmod>
       
     </url>
   
