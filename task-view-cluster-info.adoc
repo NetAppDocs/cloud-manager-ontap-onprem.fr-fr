@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task-view-cluster-info.html 
+keywords: software contract, hardware contract, contracts, expiration date, expired, software contract 
+summary: 'Vous pouvez utiliser le porte-monnaie numérique pour afficher les détails du cluster et l"état du contrat matériel et logiciel.' 
+---
+= Afficher les informations sur le cluster et les détails du contrat
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez utiliser _Digital Wallet_ pour afficher les détails du cluster et l'état du contrat matériel et logiciel.
+
+.Étapes
+. Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
+. Dans *Portefeuille numérique*, cliquez sur l'onglet *ONTAP* sur site.
++
+Les dates d'expiration du contrat logiciel et du contrat matériel apparaissent sur la ligne de chaque cluster.
+
+. Si le contrat est proche de la date d'expiration ou a expiré, vous pouvez cliquer sur l'icône de chat dans le coin inférieur droit de BlueXP pour demander une extension au contrat.
+. Pour les clusters que vous souhaitez obtenir des informations supplémentaires, cliquez sur image:button_down_caret.png["Une icône de point d'arrêt"] pour développer les informations sur le cluster.
++
+image:screenshot_digital_wallet_license_info.png["Capture d'écran indiquant l'extension des détails du cluster pour vous permettre d'afficher les informations de licence du cluster."]
+
+

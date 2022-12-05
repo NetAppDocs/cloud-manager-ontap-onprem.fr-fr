@@ -1,6 +1,6 @@
 ---
 settings:
-  name: On-prem ONTAP clusters
+  name: On-premises ONTAP clusters
   platform: cloud
   internal:
     pdf_enabled: true
@@ -17,14 +17,18 @@ sidebar:
     url: "/whats-new.html"
   - title: Commencez
     entries:
+    - title: Découvrez la gestion des clusters ONTAP sur site
+      url: "/concept-onprem-ontap.html"
     - title: Découvrir les clusters ONTAP
       url: "/task-discovering-ontap.html"
   - title: Gestion des clusters ONTAP sur site
     entries:
-    - title: Gestion des volumes ONTAP sur site
-      url: "/task-provisioning-ontap.html"
-    - title: Administration à l'aide de System Manager
-      url: "/task-administer-advanced-view.html"
+    - title: Gérez les clusters détectés directement
+      url: "/task-manage-ontap-direct.html"
+    - title: Gérer les clusters détectés à l'aide d'un connecteur
+      url: "/task-manage-ontap-connector.html"
+    - title: Afficher les informations sur le cluster et les détails du contrat
+      url: "/task-view-cluster-info.html"
     - title: Optimisez les clusters avec Digital Advisor
       url: "/concept-aiq-digital-advisor.html"
     - title: Suppression d'un environnement de travail ONTAP sur site
@@ -41,18 +45,16 @@ homepage:
   tiles:
   - title: Commencez
     links:
-    - title: Affichez les clusters sur site découverts et non découverts
-      url: task-discovering-ontap.html#viewing-discovered-and-undiscovered-on-prem-clusters
+    - title: Découvrez la gestion des clusters ONTAP sur site
+      url: concept-onprem-ontap.html
     - title: Découvrir les clusters ONTAP
       url: task-discovering-ontap.html
-    - title: Nouveautés
-      url: whats-new.html
   - title: Gestion des clusters ONTAP sur site
     links:
-    - title: Créer des volumes
-      url: task-provisioning-ontap.html
-    - title: Téléchargez le nouveau firmware des tiroirs et des disques
-      url: task-managing-ontap.html#downloading-new-disk-and-shelf-firmware
+    - title: Gérez les clusters détectés directement
+      url: task-manage-ontap-direct.html
+    - title: Gérer les clusters détectés à l'aide d'un connecteur
+      url: task-manage-ontap-connector.html
   - title: Communauté sur les blogs
     links:
     - title: Communauté NetApp

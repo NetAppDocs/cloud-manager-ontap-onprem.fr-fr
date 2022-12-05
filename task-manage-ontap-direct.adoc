@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task-manage-ontap-direct.html 
+keywords: direct discovery, direct, system manager, local, local discovery 
+summary: 'Si vous avez découvert votre cluster ONTAP sur site directement sans utiliser de connecteur, vous pouvez entrer dans l"environnement de travail pour gérer le cluster à l"aide de System Manager.' 
+---
+= Gérez des clusters ONTAP sur site découverts directement
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si vous avez découvert votre cluster ONTAP sur site directement sans utiliser de connecteur, vous pouvez ouvrir l'environnement de travail pour gérer le cluster à l'aide de System Manager.
+
+Les fonctions suivantes de System Manager ne sont pas disponibles :
+
+* Recherche globale
+* L'intégration de Digital Advisor (anciennement Active IQ) comprend des informations sur les risques et la résolution des problèmes, l'historique d'utilisation de la capacité, des notifications de disponibilité du firmware et la possibilité d'afficher des dossiers de support ouverts
+* Paramètres de l'interface utilisateur
+* Widget cloud
+* Mises à niveau manuelles du ONTAP et du firmware
+* Intégration avec Cloud Backup
+
+
+.Étapes
+. Sur la page Canevas, double-cliquez sur le nom d'un environnement de travail ONTAP sur site.
+. Utilisez System Manager pour gérer ONTAP.
++
+Si vous avez besoin d'aide pour utiliser System Manager avec ONTAP, vous pouvez voir https://docs.netapp.com/us-en/ontap/index.html["Documentation ONTAP"^] pour obtenir des instructions détaillées. Voici quelques liens utiles :
+
++
+** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["Gestion des volumes et des LUN"^]
+** https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["Gestion du réseau"^]
+** https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["Protection des données"^]
+
+
+

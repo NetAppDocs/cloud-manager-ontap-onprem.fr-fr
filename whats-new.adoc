@@ -18,6 +18,30 @@ Découvrez les nouveautés de la gestion de clusters ONTAP sur site dans BlueXP 
 
 
 
+== 4 décembre 2022
+
+Les modifications suivantes ont été introduites avec la version 3.9.24 du connecteur.
+
+
+
+=== Une nouvelle façon de découvrir les clusters ONTAP sur site
+
+Vous pouvez désormais découvrir directement vos clusters ONTAP sur site sans utiliser de connecteur. Cette option permet de gérer le cluster via System Manager uniquement. Vous ne pouvez pas activer de services de données BlueXP sur ce type d'environnement de travail.
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["En savoir plus sur cette option de découverte et de gestion"].
+
+
+
+=== Volumes FlexGroup
+
+Pour les clusters ONTAP sur site découverts via un connecteur, la vue standard de BlueXP représente désormais les volumes FlexGroup créés via System Manager ou l'interface de ligne de commande ONTAP. Vous pouvez également gérer ces volumes en les clonant, en modifiant leurs paramètres, en les supprimant, et plus encore.
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["Copie d'écran montrant un volume FlexGroup sur la page volumes pour un cluster ONTAP sur site."]
+
+BlueXP ne prend pas en charge la création de volumes FlexGroup. Vous devez continuer à utiliser System Manager ou l'interface de ligne de commandes pour créer des volumes FlexGroup.
+
+
+
 == 18 septembre 2022
 
 Les modifications suivantes ont été introduites avec la version 3.9.22 du connecteur.

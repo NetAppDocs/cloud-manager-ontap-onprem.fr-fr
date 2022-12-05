@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: concept-onprem-ontap.html 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet 
+summary: 'BlueXP peut détecter les clusters ONTAP s"exécutant sur des contrôleurs AFF/FAS et sur ONTAP Select. L"ajout de systèmes ONTAP sur site à BlueXP vous permet de gérer l"ensemble de vos ressources de stockage et de données à partir d"une seule interface.' 
+---
+= Gestion de clusters ONTAP sur site depuis BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP peut détecter les clusters ONTAP s'exécutant sur des contrôleurs AFF/FAS et sur ONTAP Select. L'ajout de systèmes ONTAP sur site à BlueXP vous permet de gérer l'ensemble de vos ressources de stockage et de données à partir d'une seule interface.
+
+
+
+== Caractéristiques
+
+* Gestion des volumes NFS et CIFS
+* Procédez à une gestion avancée avec ONTAP System Manager
+* Assurez l'observabilité et les performances avec l'analyse et le contrôle de BlueXP
+* Utilisez les services de données de BlueXP pour répliquer, sauvegarder, analyser, classer et classer les données de niveau
+* Afficher les informations sur l'état des contrats matériels et logiciels dans le porte-monnaie numérique
+
+
+
+
+== Le coût
+
+Un coût peut être associé, mais cela dépend des éléments suivants :
+
+* Que vous déployiez un connecteur pour détecter et gérer vos clusters.
++
+Vous pouvez installer le connecteur dans le cloud ou sur site.
+
+* Si vous activez les services de données optionnels tels que Cloud Backup, Cloud Tiering et le choix des données.
+
