@@ -301,7 +301,6 @@
   <block id="729efe039f733cfbcd1a94fd02a8b2c6" category="paragraph">Les mises à niveau à la demande des firmwares et des logiciels ne sont pas disponibles.</block>
   <block id="01ab8fe0565c01eb93456b579d969d66" category="list-text">Contrôle d'accès basé sur des rôles</block>
   <block id="83f5656d14cbf1628e806237dd016ac6" category="paragraph">Le contrôle d'accès basé sur des rôles depuis System Manager n'est pas pris en charge.</block>
-  <block id="07e1d66babe77070cc76a4e637c9f26d" category="section-title">Comment démarrer</block>
   <block id="bbd3883401d7cab6239afc1bb95269c5" category="paragraph">Ouvrez un environnement de travail ONTAP sur site et cliquez sur l'option vue avancée.</block>
   <block id="30712363115d96bac17774981ad3a874" category="list-text">Sur la page Canevas, double-cliquez sur le nom d'un environnement de travail ONTAP sur site.</block>
   <block id="a31b079030fd3d406e06a9ce180abf58" category="list-text">Dans le coin supérieur droit, cliquez sur *basculer vers la vue avancée*.</block>
@@ -362,7 +361,6 @@
   <block id="b30b65f2681ed2d6502197f4610e70c8" category="section-title">Détecter directement les clusters</block>
   <block id="e08ee5a36e032624fb49ba25ecf80f33" category="paragraph">Découverte directe de vos clusters ONTAP sur site depuis BlueXP pour gérer les clusters à l'aide de System Manager.</block>
   <block id="7e88fc68853866bfdfc0a0b49e0f2399" category="admonition">Lorsque vous accédez à System Manager sur un cluster ONTAP sur site fonctionnant sous 9.12.1 ou version ultérieure et connecté au service BlueXP, vous êtes invité à gérer le cluster directement à partir de BlueXP. Si vous suivez cette invite, il découvre le cluster dans BlueXP comme décrit dans cette section.</block>
-  <block id="9d77980fa3ff27250f01b3c6e5071013" category="list-text">Le cluster ONTAP sur site doit exécuter la version 9.12.1 ou ultérieure et être connecté au service BlueXP (\https://bluexp.netapp.com).</block>
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">Vous avez besoin de l'adresse IP de gestion du cluster et du mot de passe du compte utilisateur admin.</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXP détecte les clusters ONTAP via HTTPS. Si vous utilisez des politiques de pare-feu personnalisées, le cluster ONTAP doit autoriser l'accès HTTPS entrant via le port 443.</block>
   <block id="ffaf5a6e69763e444841985add398d73" category="list-text">Sélectionnez *local On-local ONTAP (Direct)*.</block>
@@ -429,4 +427,6 @@
   <block id="86c7810a751199da86e2984eefab0cbf" category="sidebar">Gérez les clusters détectés directement</block>
   <block id="d7bca90a91d0f08eecc40f650240e677" category="sidebar">Gérer les clusters détectés à l'aide d'un connecteur</block>
   <block id="d3db502b671c154b98dfced0b397de36" category="sidebar">Afficher les informations sur le cluster et les détails du contrat</block>
+  <block id="c6c831233d61f4d380266d4dc57c8f7e" category="list-text">Le cluster ONTAP sur site doit fonctionner 9.12.1 ou version ultérieure et être connecté au service BlueXP.</block>
+  <block id="00134a9d28b6398470ee6b1362eeb303" category="section-title">Utilisation de l'affichage avancé (System Manager)</block>
 </blocks>

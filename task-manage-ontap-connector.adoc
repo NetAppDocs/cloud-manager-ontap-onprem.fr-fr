@@ -193,7 +193,7 @@ Le contrôle d'accès basé sur des rôles depuis System Manager n'est pas pris 
 
 
 
-=== Comment démarrer
+=== Utilisation de l'affichage avancé (System Manager)
 
 Ouvrez un environnement de travail ONTAP sur site et cliquez sur l'option vue avancée.
 

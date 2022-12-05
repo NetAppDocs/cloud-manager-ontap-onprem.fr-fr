@@ -114,7 +114,7 @@ TIP: Lorsque vous accédez à System Manager sur un cluster ONTAP sur site fonct
 +
 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["Apprenez à vous lancer avec BlueXP"^]
 
-* Le cluster ONTAP sur site doit exécuter la version 9.12.1 ou ultérieure et être connecté au service BlueXP (\https://bluexp.netapp.com).
+* Le cluster ONTAP sur site doit fonctionner 9.12.1 ou version ultérieure et être connecté au service BlueXP.
 * Vous avez besoin de l'adresse IP de gestion du cluster et du mot de passe du compte utilisateur admin.
 +
 BlueXP détecte les clusters ONTAP via HTTPS. Si vous utilisez des politiques de pare-feu personnalisées, le cluster ONTAP doit autoriser l'accès HTTPS entrant via le port 443.
