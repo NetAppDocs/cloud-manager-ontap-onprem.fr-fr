@@ -28,7 +28,7 @@ Une fois que vous avez découvert votre cluster ONTAP sur site de BlueXP à l'ai
 
 BlueXP vous permet de créer des volumes NFS ou CIFS sur des agrégats existants. Il est impossible de créer de nouveaux agrégats sur un cluster ONTAP sur site à partir de la vue standard BlueXP. Vous devez utiliser la vue avancée pour créer des agrégats.
 
-La fonction BlueXP appelée « modèles » vous permet de créer des volumes optimisés pour les besoins de charge de travail de certaines applications, comme les bases de données ou les services de diffusion en continu. Si votre organisation a créé des modèles de volume que vous devez utiliser, suivez la procédure ci-dessous  volumes from templates,procédure à suivre.
+La fonction BlueXP appelée « modèles » vous permet de créer des volumes optimisés pour les besoins de charge de travail de certaines applications, comme les bases de données ou les services de diffusion en continu. Si votre organisation a créé des modèles de volume que vous devez utiliser, suivez la procédure ci-dessous <<Créer des volumes à partir de modèles,procédure à suivre>>.
 
 .Étapes
 . Dans le menu de navigation, sélectionnez *stockage > Canvas*.
@@ -108,11 +108,12 @@ image:screenshot_define_ontap_vol_from_template.png["Capture d'écran montrant u
 . Dans la zone _context_, l'environnement de travail est rempli avec le nom de l'environnement de travail avec lequel vous avez commencé. Vous devez sélectionner la *VM de stockage* et *agrégat* où le volume sera créé.
 . Ajoutez des valeurs pour tous les paramètres qui ne sont pas codés en dur à partir du modèle.
 +
- volumes,Découvrez les paramètres nécessaires à la création du volume.
+<<Créer des volumes,Découvrez les paramètres nécessaires à la création du volume>>.
 
 . Cliquez sur *Exécuter le modèle* après avoir défini tous les paramètres requis pour ce volume.
 
 
+.Résultat
 BlueXP provisionne le volume et affiche une page pour vous permettre de voir la progression.
 
 image:screenshot_template_creating_resource_ontap.png["Capture d'écran indiquant la progression de la création de votre nouveau volume à partir du modèle."]
@@ -121,6 +122,7 @@ Ensuite, le nouveau volume est ajouté à l'environnement de travail.
 
 En outre, si une action secondaire est implémentée dans le modèle, par exemple, l'activation de Cloud Backup sur le volume, cette action est également effectuée.
 
+.Une fois que vous avez terminé
 Si vous avez provisionné un partage CIFS, donnez aux utilisateurs ou aux groupes des autorisations sur les fichiers et les dossiers et vérifiez que ces utilisateurs peuvent accéder au partage et créer un fichier.
 
 
@@ -171,25 +173,9 @@ L'intégration de System Manager n'est pas prise en charge dans les régions Gov
 
 === Limites
 
-Certaines fonctionnalités de System Manager ne sont pas prises en charge avec les clusters ONTAP sur site lors de l'utilisation de l'affichage avancé dans BlueXP :
+Certaines fonctionnalités de System Manager ne sont pas prises en charge avec les clusters ONTAP sur site lors de l'utilisation de la vue avancée dans BlueXP.
 
-* Configuration du cluster
-+
-Une fois que vous avez défini l'adresse IP de gestion et configuré le mot de passe d'administration sur un cluster ONTAP sur site, vous pouvez découvrir le cluster dans BlueXP, puis poursuivre la configuration du cluster depuis la vue avancée.
-
-* Activation de Cloud Backup
-+
-Activez Cloud Backup sur un cluster sur site directement à partir de Cloud Backup. https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["Découvrez comment démarrer"^].
-
-* Mises à niveau à la demande
-+
-Les mises à niveau à la demande des firmwares et des logiciels ne sont pas disponibles.
-
-* Contrôle d'accès basé sur des rôles
-+
-Le contrôle d'accès basé sur des rôles depuis System Manager n'est pas pris en charge.
-
-
+link:reference-limitations.html["Consultez la liste des limites"].
 
 
 

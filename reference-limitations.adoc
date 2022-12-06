@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations.html 
+keywords: limitations, system manager, unsupported features 
+summary: Les limitations connues identifient les plateformes, les périphériques ou les fonctions qui ne sont pas pris en charge par cette version du produit, ou qui ne fonctionnent pas correctement avec elle. Examinez attentivement ces limites. 
+---
+= Limites connues
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Les limitations connues identifient les plateformes, les périphériques ou les fonctions qui ne sont pas pris en charge par cette version du produit, ou qui ne fonctionnent pas correctement avec elle. Examinez attentivement ces limites.
+
+Quelques fonctions de System Manager ne sont pas prises en charge par BlueXP :
+
+* Configuration du cluster
++
+Une fois que vous avez défini l'adresse IP de gestion et configuré le mot de passe d'administration sur un cluster ONTAP sur site, vous pouvez découvrir le cluster dans BlueXP.
+
+* Contrôle d'accès basé sur des rôles (connecteur uniquement)
++
+Le contrôle d'accès basé sur des rôles dans System Manager n'est pas pris en charge lors de la découverte et de la gestion d'un cluster ONTAP sur site à l'aide d'un connecteur. Vous êtes invité à saisir vos informations d'identification administrateur lors du processus de détection. Ces identifiants sont utilisés pour toutes les actions effectuées depuis System Manager.
+
++
+Avec l'option de découverte directe, vous êtes invité à vous connecter avec vos identifiants ONTAP à chaque fois que vous ouvrez l'environnement de travail.
+
+* Activation de Cloud Backup
++
+Activez Cloud Backup sur un cluster sur site directement à partir de Cloud Backup. https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["Découvrez comment démarrer"^]
+
+* Mises à niveau à la demande
++
+Les mises à niveau à la demande des firmwares et des logiciels ne sont pas disponibles.
+
+* Recherche globale
+* Paramètres de l'interface utilisateur
+

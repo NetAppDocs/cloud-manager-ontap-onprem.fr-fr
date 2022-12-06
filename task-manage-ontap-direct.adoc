@@ -16,18 +16,17 @@ summary: 'Si vous avez découvert votre cluster ONTAP sur site directement sans 
 [role="lead"]
 Si vous avez découvert votre cluster ONTAP sur site directement sans utiliser de connecteur, vous pouvez ouvrir l'environnement de travail pour gérer le cluster à l'aide de System Manager.
 
-Les fonctions suivantes de System Manager ne sont pas disponibles :
+.Limites
+Quelques fonctions de System Manager ne sont pas prises en charge par BlueXP.
 
-* Recherche globale
-* L'intégration de Digital Advisor (anciennement Active IQ) comprend des informations sur les risques et la résolution des problèmes, l'historique d'utilisation de la capacité, des notifications de disponibilité du firmware et la possibilité d'afficher des dossiers de support ouverts
-* Paramètres de l'interface utilisateur
-* Widget cloud
-* Mises à niveau manuelles du ONTAP et du firmware
-* Intégration avec Cloud Backup
-
+link:reference-limitations.html["Consultez la liste des limites"].
 
 .Étapes
 . Sur la page Canevas, double-cliquez sur le nom d'un environnement de travail ONTAP sur site.
+. Indiquez vos identifiants ONTAP.
++
+Chaque fois que vous ouvrez l'environnement de travail, vous êtes invité à vous connecter avec vos identifiants ONTAP.
+
 . Utilisez System Manager pour gérer ONTAP.
 +
 Si vous avez besoin d'aide pour utiliser System Manager avec ONTAP, vous pouvez voir https://docs.netapp.com/us-en/ontap/index.html["Documentation ONTAP"^] pour obtenir des instructions détaillées. Voici quelques liens utiles :

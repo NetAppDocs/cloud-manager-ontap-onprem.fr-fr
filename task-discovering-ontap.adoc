@@ -26,22 +26,24 @@ Découverte via un connecteur:: Cette option vous permet de gérer le cluster à
 +
 --
 * La vue Standard, qui fournit les opérations de base du volume
-* La vue avancée, qui permet la gestion via System Manager
+* L'affichage avancé, qui permet une gestion via System Manager (pris en charge par ONTAP 9.10.0 et versions ultérieures)
 * Intégration avec les services de données BlueXP, qui assurent la réplication, la sauvegarde et la restauration, la classification et le Tiering des données
 
 
-Un connecteur doit être installé dans un fournisseur cloud ou sur site.
+Un connecteur doit être installé dans un fournisseur cloud ou sur site. <<Détecter les clusters à l'aide d'un connecteur,Passez en revue les exigences et les instructions détaillées ci-dessous>>.
 
 --
-Découverte directe:: Cette option vous permet de gérer le cluster à l'aide de System Manager. Aucune autre option de gestion n'est disponible.
+Découverte directe:: Cette option vous permet de gérer le cluster à l'aide de System Manager. Aucune autre option de gestion n'est disponible. Vous ne pouvez pas utiliser la vue Standard et vous ne pouvez pas activer les services de données.
 +
 --
-Cette option ne nécessite pas de connecteur.
+Cette option ne nécessite pas de connecteur. <<Détecter directement les clusters,Passez en revue les exigences et les instructions détaillées ci-dessous>>.
 
 --
 
 
 Une fois découverts, vos clusters sont disponibles sous forme d'environnement de travail sur BlueXP Canvas.
+
+Si vous décidez d'utiliser l'autre option de détection ultérieurement, vous devrez découvrir le cluster sur site comme un environnement de travail séparé sur la toile. Vous avez ensuite la possibilité de supprimer l'autre environnement de travail.
 
 
 
@@ -65,9 +67,7 @@ Si vous voulez transférer les données inactives vers le cloud, consultez les c
 
 
 * Vous avez besoin de l'adresse IP de gestion de cluster et du mot de passe du compte utilisateur admin pour ajouter le cluster à BlueXP.
-+
-BlueXP détecte les clusters ONTAP via HTTPS. Si vous utilisez des stratégies de pare-feu personnalisées, elles doivent répondre aux exigences suivantes :
-
+* BlueXP détecte les clusters ONTAP via HTTPS. Si vous utilisez des stratégies de pare-feu personnalisées, elles doivent répondre aux exigences suivantes :
 +
 ** L'hôte du connecteur doit autoriser l'accès HTTPS sortant via le port 443.
 +
@@ -96,7 +96,8 @@ image:screenshot_discover_ontap.png["Copie d'écran affichant un exemple de page
 . Sur la page _Details & Credentials_, entrez un nom et une description pour l'environnement de travail, puis cliquez sur *Go*.
 
 
-BlueXP découvre le cluster et l'ajoute à un environnement de travail dans le Canvas.
+.Résultat
+BlueXP découvre le cluster et l'ajoute comme un environnement de travail sur la toile.
 
 link:task-manage-ontap-connector.html["Apprenez à gérer les clusters"].
 
@@ -114,11 +115,13 @@ TIP: Lorsque vous accédez à System Manager sur un cluster ONTAP sur site fonct
 +
 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["Apprenez à vous lancer avec BlueXP"^]
 
-* Le cluster ONTAP sur site doit fonctionner 9.12.1 ou version ultérieure et être connecté au service BlueXP.
-* Vous avez besoin de l'adresse IP de gestion du cluster et du mot de passe du compte utilisateur admin.
+* Le cluster sur site doit exécuter ONTAP 9.12.1 ou une version ultérieure.
+* Le cluster doit disposer d'une connectivité entrante et sortante vers le service BlueXP :
 +
-BlueXP détecte les clusters ONTAP via HTTPS. Si vous utilisez des politiques de pare-feu personnalisées, le cluster ONTAP doit autoriser l'accès HTTPS entrant via le port 443.
+\https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection
 
+* Vous avez besoin de l'adresse IP de gestion du cluster et du mot de passe du compte utilisateur admin.
+* BlueXP détecte les clusters ONTAP via HTTPS. Si vous utilisez des politiques de pare-feu personnalisées, le cluster ONTAP doit autoriser l'accès HTTPS entrant via le port 443.
 +
 La stratégie de pare-feu " mgmt " par défaut permet l'accès HTTPS entrant à partir de toutes les adresses IP. Si vous avez modifié cette stratégie par défaut ou si vous avez créé votre propre stratégie de pare-feu, vous devez associer le protocole HTTPS à cette politique et activer l'accès à partir de l'hôte du connecteur.
 
@@ -131,6 +134,7 @@ La stratégie de pare-feu " mgmt " par défaut permet l'accès HTTPS entrant à 
 . Entrez l'adresse IP de gestion de cluster et le mot de passe du compte utilisateur admin, puis cliquez sur *Ajouter*.
 
 
-BlueXP découvre le cluster et l'ajoute à un environnement de travail dans le Canvas.
+.Résultat
+BlueXP découvre le cluster et l'ajoute comme un environnement de travail sur la toile.
 
 link:task-manage-ontap-direct.html["Apprenez à gérer les clusters"].

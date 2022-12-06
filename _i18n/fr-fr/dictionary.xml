@@ -80,7 +80,6 @@
   <block id="669e31e2ded4144ba1ab8e5d140217fa" category="list-text">Sur la page _ONTAP Détails du cluster_, entrez l'adresse IP de gestion du cluster, le mot de passe du compte utilisateur admin, puis cliquez sur *Ajouter*.</block>
   <block id="a84799eaf08f86932722efc82243f9c5" category="paragraph"><block ref="a84799eaf08f86932722efc82243f9c5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="67fe55a3364c0f403605fc5a0962dd79" category="list-text">Sur la page _Details &amp; Credentials_, entrez un nom et une description pour l'environnement de travail, puis cliquez sur *Go*.</block>
-  <block id="769902a337681b650f09da3f18c10aa4" category="paragraph">BlueXP découvre le cluster et l'ajoute à un environnement de travail dans le Canvas.</block>
   <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">procédure à suivre</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">Dans le menu de navigation, sélectionnez *stockage &gt; Canvas*.</block>
   <block id="7c1c859794874e74db7044dd733c5ca7" category="list-text">Sur la page Canvas, double-cliquez sur le nom du cluster ONTAP sur site sur lequel vous souhaitez provisionner les volumes.</block>
@@ -291,16 +290,11 @@
   <block id="8cc569c03bd345c450afe055c793f724" category="paragraph">La gestion avancée via System Manager est prise en charge avec les clusters ONTAP sur site qui exécutent 9.10.0 ou une version ultérieure.</block>
   <block id="0f1ca4e2133610fdc8b23e4db3f7cb0c" category="paragraph">L'intégration de System Manager n'est pas prise en charge dans les régions GovCloud ni dans les régions ne disposant pas d'accès Internet sortant.</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">Limites</block>
-  <block id="51b39d6b18a087bb361f52d3d3f3adc2" category="paragraph">Certaines fonctionnalités de System Manager ne sont pas prises en charge avec les clusters ONTAP sur site lors de l'utilisation de l'affichage avancé dans BlueXP :</block>
   <block id="e710f9addfdf1e48c1320d497696c4fc" category="list-text">Configuration du cluster</block>
-  <block id="4f160231c0de198033f98003f3c9e665" category="paragraph">Une fois que vous avez défini l'adresse IP de gestion et configuré le mot de passe d'administration sur un cluster ONTAP sur site, vous pouvez découvrir le cluster dans BlueXP, puis poursuivre la configuration du cluster depuis la vue avancée.</block>
   <block id="bec7e4750178c449b47b3663cb2804ea" category="list-text">Activation de Cloud Backup</block>
   <block id="7d782479a41a3941b57cc7c2b60d318a" category="inline-link">Découvrez comment démarrer</block>
-  <block id="4bd7d8add0f25e108898d306e19a3841" category="paragraph">Activez Cloud Backup sur un cluster sur site directement à partir de Cloud Backup.<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block>.</block>
   <block id="dc7f30ec5bd878efd2189fe1b0703118" category="list-text">Mises à niveau à la demande</block>
   <block id="729efe039f733cfbcd1a94fd02a8b2c6" category="paragraph">Les mises à niveau à la demande des firmwares et des logiciels ne sont pas disponibles.</block>
-  <block id="01ab8fe0565c01eb93456b579d969d66" category="list-text">Contrôle d'accès basé sur des rôles</block>
-  <block id="83f5656d14cbf1628e806237dd016ac6" category="paragraph">Le contrôle d'accès basé sur des rôles depuis System Manager n'est pas pris en charge.</block>
   <block id="bbd3883401d7cab6239afc1bb95269c5" category="paragraph">Ouvrez un environnement de travail ONTAP sur site et cliquez sur l'option vue avancée.</block>
   <block id="30712363115d96bac17774981ad3a874" category="list-text">Sur la page Canevas, double-cliquez sur le nom d'un environnement de travail ONTAP sur site.</block>
   <block id="a31b079030fd3d406e06a9ce180abf58" category="list-text">Dans le coin supérieur droit, cliquez sur *basculer vers la vue avancée*.</block>
@@ -340,12 +334,9 @@
   <block id="a8fd54ba8c2928ea1b2a300ca75a00fa" category="list-text">Découverte via un connecteur</block>
   <block id="9099bf7c5b970d6d29d762b19812bc2a" category="list-text">Cette option vous permet de gérer le cluster à l'aide des fonctionnalités suivantes :</block>
   <block id="dad407e605b93746e62dec356ab5303e" category="list-text">La vue Standard, qui fournit les opérations de base du volume</block>
-  <block id="f546502444f55f37cfa6d472a2a3b008" category="list-text">La vue avancée, qui permet la gestion via System Manager</block>
   <block id="90050bf1ae850c8b086b4d648fb45152" category="list-text">Intégration avec les services de données BlueXP, qui assurent la réplication, la sauvegarde et la restauration, la classification et le Tiering des données</block>
   <block id="95ef150c4c1c6bc6be1dda757b58c70c" category="paragraph">Un connecteur doit être installé dans un fournisseur cloud ou sur site.</block>
   <block id="9023f6f288dd42621136db54ed1a4521" category="list-text">Découverte directe</block>
-  <block id="2567b12ded3466509f685280c4aa8384" category="list-text">Cette option vous permet de gérer le cluster à l'aide de System Manager. Aucune autre option de gestion n'est disponible.</block>
-  <block id="d7aa3f7ee53003f5d75a0f500ddb1e6a" category="paragraph">Cette option ne nécessite pas de connecteur.</block>
   <block id="5883223e097bdc0962b33579a610a819" category="paragraph">Une fois découverts, vos clusters sont disponibles sous forme d'environnement de travail sur BlueXP Canvas.</block>
   <block id="5f0721d5f4c3654b1df18083ddb89b2b" category="section-title">Détecter les clusters à l'aide d'un connecteur</block>
   <block id="3a631896bab850237847c094a439aa27" category="paragraph">Découvrez vos clusters ONTAP sur site avec un connecteur pour bénéficier de toutes les fonctionnalités de gestion disponibles par BlueXP.</block>
@@ -415,18 +406,40 @@
   <block id="e99ba2e85cd14247616b34e8e537a2a3" category="summary">Si vous avez découvert votre cluster ONTAP sur site directement sans utiliser de connecteur, vous pouvez entrer dans l'environnement de travail pour gérer le cluster à l'aide de System Manager.</block>
   <block id="1baa0a6e8459b336e97ce9f196d90c4a" category="doc">Gérez des clusters ONTAP sur site découverts directement</block>
   <block id="4b00b5b65d810ab0ae0bc0144d73b71a" category="paragraph">Si vous avez découvert votre cluster ONTAP sur site directement sans utiliser de connecteur, vous pouvez ouvrir l'environnement de travail pour gérer le cluster à l'aide de System Manager.</block>
-  <block id="32faa0550ff2e3aac4989c67c25e8d67" category="paragraph">Les fonctions suivantes de System Manager ne sont pas disponibles :</block>
   <block id="cff5bc039637fff679fead59b27d79c4" category="list-text">Recherche globale</block>
-  <block id="32b7aee13f0d228336f5d78012a3586e" category="list-text">L'intégration de Digital Advisor (anciennement Active IQ) comprend des informations sur les risques et la résolution des problèmes, l'historique d'utilisation de la capacité, des notifications de disponibilité du firmware et la possibilité d'afficher des dossiers de support ouverts</block>
   <block id="382f24d48bc1efa5dd974e166ac8df58" category="list-text">Paramètres de l'interface utilisateur</block>
-  <block id="41e328166e8eef7104364ecfeb21af85" category="list-text">Widget cloud</block>
-  <block id="a73d930c552e6d3ace1bddae5b1dcc68" category="list-text">Mises à niveau manuelles du ONTAP et du firmware</block>
-  <block id="78c63c413212cfcf000b470d56f80428" category="list-text">Intégration avec Cloud Backup</block>
   <block id="3014dc2d87cf02248e7abe6b8ac89106" category="sidebar">Documentation sur le cluster ONTAP sur site</block>
   <block id="7a57cd895ed6c692c6eaacc459f5c5b2" category="sidebar">Découvrez la gestion des clusters ONTAP sur site</block>
   <block id="86c7810a751199da86e2984eefab0cbf" category="sidebar">Gérez les clusters détectés directement</block>
   <block id="d7bca90a91d0f08eecc40f650240e677" category="sidebar">Gérer les clusters détectés à l'aide d'un connecteur</block>
   <block id="d3db502b671c154b98dfced0b397de36" category="sidebar">Afficher les informations sur le cluster et les détails du contrat</block>
-  <block id="c6c831233d61f4d380266d4dc57c8f7e" category="list-text">Le cluster ONTAP sur site doit fonctionner 9.12.1 ou version ultérieure et être connecté au service BlueXP.</block>
   <block id="00134a9d28b6398470ee6b1362eeb303" category="section-title">Utilisation de l'affichage avancé (System Manager)</block>
+  <block id="1eba71d64e6c5e410e558530711e835b" category="summary">Les limitations connues identifient les plateformes, les périphériques ou les fonctions qui ne sont pas pris en charge par cette version du produit, ou qui ne fonctionnent pas correctement avec elle. Examinez attentivement ces limites.</block>
+  <block id="482723983a4f2af954e36ff41e567451" category="doc">Limites connues</block>
+  <block id="d7eb6312f68de520afbf446e19850f73" category="paragraph">Quelques fonctions de System Manager ne sont pas prises en charge par BlueXP :</block>
+  <block id="bbbaee2173c1bbfdec1f9145d05f9f6e" category="paragraph">Une fois que vous avez défini l'adresse IP de gestion et configuré le mot de passe d'administration sur un cluster ONTAP sur site, vous pouvez découvrir le cluster dans BlueXP.</block>
+  <block id="ef8d24c115f07ff9475a999250c2a5d8" category="list-text">Contrôle d'accès basé sur des rôles (connecteur uniquement)</block>
+  <block id="4a2ee857fe0aa1483d07a75bf8d71bec" category="paragraph">Le contrôle d'accès basé sur des rôles dans System Manager n'est pas pris en charge lors de la découverte et de la gestion d'un cluster ONTAP sur site à l'aide d'un connecteur. Vous êtes invité à saisir vos informations d'identification administrateur lors du processus de détection. Ces identifiants sont utilisés pour toutes les actions effectuées depuis System Manager.</block>
+  <block id="75116741b7b623681d2dd352ea2ef388" category="paragraph">Avec l'option de découverte directe, vous êtes invité à vous connecter avec vos identifiants ONTAP à chaque fois que vous ouvrez l'environnement de travail.</block>
+  <block id="e57ef19ca7d4e00e73b11a38b0a89a63" category="paragraph">Activez Cloud Backup sur un cluster sur site directement à partir de Cloud Backup.<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block></block>
+  <block id="05280ae0f52dfc03d23962982cf79f21" category="list-text">L'affichage avancé, qui permet une gestion via System Manager (pris en charge par ONTAP 9.10.0 et versions ultérieures)</block>
+  <block id="18913a11bfb9265ce650e9b06d80da69" category="inline-xref">Passez en revue les exigences et les instructions détaillées ci-dessous</block>
+  <block id="b96973ab12dad5cf917d59fa426d501e" category="paragraph">Un connecteur doit être installé dans un fournisseur cloud ou sur site. <block ref="578fb4b6eccb6dc6ce978336e196fff7" category="inline-xref-macro-rx"></block>.</block>
+  <block id="48162a37cddfdaa963ac3204f7595591" category="list-text">Cette option vous permet de gérer le cluster à l'aide de System Manager. Aucune autre option de gestion n'est disponible. Vous ne pouvez pas utiliser la vue Standard et vous ne pouvez pas activer les services de données.</block>
+  <block id="be7a52baf7d7b7389782214033190cd4" category="paragraph">Cette option ne nécessite pas de connecteur. <block ref="0820951a94f165da4a5239e04ce4e106" category="inline-xref-macro-rx"></block>.</block>
+  <block id="797c4c6d452fc60610219b263c22393d" category="paragraph">Si vous décidez d'utiliser l'autre option de détection ultérieurement, vous devrez découvrir le cluster sur site comme un environnement de travail séparé sur la toile. Vous avez ensuite la possibilité de supprimer l'autre environnement de travail.</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Résultat</block>
+  <block id="95cf39b88222fd06560109489ee91506" category="paragraph">BlueXP découvre le cluster et l'ajoute comme un environnement de travail sur la toile.</block>
+  <block id="971b56bb19698ede33f8f4ef782f3774" category="list-text">Le cluster sur site doit exécuter ONTAP 9.12.1 ou une version ultérieure.</block>
+  <block id="d8140eebe21fbc87913a211d15aa72f0" category="list-text">Le cluster doit disposer d'une connectivité entrante et sortante vers le service BlueXP :</block>
+  <block id="3693065b074c131d0dd4c103327a1d7b" category="paragraph">\https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Une fois que vous avez terminé</block>
+  <block id="ae5ebdf987b9634f1c41168db5af6124" category="paragraph">Certaines fonctionnalités de System Manager ne sont pas prises en charge avec les clusters ONTAP sur site lors de l'utilisation de la vue avancée dans BlueXP.</block>
+  <block id="480454c8f8beef2524f1fbdddc48ea12" category="inline-link-macro">Consultez la liste des limites</block>
+  <block id="bfe73fc0abe25019e3e0d76f17653911" category="paragraph"><block ref="736a4b96dd4361a68ef1dd0a557122e0" category="inline-link-macro-rx"></block>.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">Avant de commencer</block>
+  <block id="bc3d7bdad28e2f8cac321d5cae0b897c" category="paragraph">Quelques fonctions de System Manager ne sont pas prises en charge par BlueXP.</block>
+  <block id="059eb0e13bd9e186363bedd175a5226b" category="list-text">Indiquez vos identifiants ONTAP.</block>
+  <block id="e62e400b7f916eb360e1c51ccb93a44f" category="paragraph">Chaque fois que vous ouvrez l'environnement de travail, vous êtes invité à vous connecter avec vos identifiants ONTAP.</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Quoi de neuf</block>
 </blocks>

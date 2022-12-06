@@ -14,7 +14,11 @@ sidebar:
   - title: Documentation sur le cluster ONTAP sur site
     url: "/index.html"
   - title: Notes de mise à jour
-    url: "/whats-new.html"
+    entries:
+    - title: Quoi de neuf
+      url: "/whats-new.html"
+    - title: Limites connues
+      url: "/reference-limitations.html"
   - title: Commencez
     entries:
     - title: Découvrez la gestion des clusters ONTAP sur site
