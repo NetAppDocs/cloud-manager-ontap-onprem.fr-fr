@@ -355,6 +355,31 @@
 
 
 
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/fr-fr/cloud-manager-ontap-onprem/pdfs/sidebar/Notes_de_mise_à_jour.pdf" 
+            
+          >
+            <img src="/fr-fr/cloud-manager-ontap-onprem/images/pdf.png" alt="" width="16" height="16"/>
+            Notes de mise à jour
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
 
 
     
@@ -495,11 +520,27 @@
       </a></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="Notes de mise à jour"
-      data-li-level="1#" 
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Notes de mise à jour</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Quoi de neuf"
+      data-li-level="2#" 
       class=" "
     ><a class="na-navbar-padding" href="/fr-fr/cloud-manager-ontap-onprem/whats-new.html">
-        Notes de mise à jour
+        Quoi de neuf
       </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Limites connues"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/fr-fr/cloud-manager-ontap-onprem/reference-limitations.html">
+        Limites connues
+      </a></li></ul></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="Commencez"
       data-li-level="1" 
@@ -667,7 +708,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-12-05 18:19:26 +0000">12/05/2022</time>
+    <time datetime="2022-12-06 18:07:33 +0000">12/06/2022</time>
     
   
 
@@ -696,7 +737,7 @@
 <p>BlueXP vous permet de créer des volumes NFS ou CIFS sur des agrégats existants. Il est impossible de créer de nouveaux agrégats sur un cluster ONTAP sur site à partir de la vue standard BlueXP. Vous devez utiliser la vue avancée pour créer des agrégats.</p>
 </div>
 <div class="paragraph">
-<p>La fonction BlueXP appelée « modèles » vous permet de créer des volumes optimisés pour les besoins de charge de travail de certaines applications, comme les bases de données ou les services de diffusion en continu. Si votre organisation a créé des modèles de volume que vous devez utiliser, suivez la procédure ci-dessous  volumes from templates,procédure à suivre.</p>
+<p>La fonction BlueXP appelée « modèles » vous permet de créer des volumes optimisés pour les besoins de charge de travail de certaines applications, comme les bases de données ou les services de diffusion en continu. Si votre organisation a créé des modèles de volume que vous devez utiliser, suivez la procédure ci-dessous <a href="#créer-des-volumes-à-partir-de-modèles">procédure à suivre</a>.</p>
 </div>
 <div class="olist arabic">
 <div class="title">Étapes</div>
@@ -841,10 +882,8 @@ Vous pouvez créer des volumes NFS ou CIFS uniquement lors de l&#8217;utilisatio
 </li>
 <li>
 <p>Ajoutez des valeurs pour tous les paramètres qui ne sont pas codés en dur à partir du modèle.</p>
-<div class="literalblock">
-<div class="content">
-<pre>volumes,Découvrez les paramètres nécessaires à la création du volume.</pre>
-</div>
+<div class="paragraph">
+<p><a href="#créer-des-volumes">Découvrez les paramètres nécessaires à la création du volume</a>.</p>
 </div>
 </li>
 <li>
@@ -853,6 +892,7 @@ Vous pouvez créer des volumes NFS ou CIFS uniquement lors de l&#8217;utilisatio
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Résultat</div>
 <p>BlueXP provisionne le volume et affiche une page pour vous permettre de voir la progression.</p>
 </div>
 <div class="paragraph">
@@ -865,6 +905,7 @@ Vous pouvez créer des volumes NFS ou CIFS uniquement lors de l&#8217;utilisatio
 <p>En outre, si une action secondaire est implémentée dans le modèle, par exemple, l&#8217;activation de Cloud Backup sur le volume, cette action est également effectuée.</p>
 </div>
 <div class="paragraph">
+<div class="title">Une fois que vous avez terminé</div>
 <p>Si vous avez provisionné un partage CIFS, donnez aux utilisateurs ou aux groupes des autorisations sur les fichiers et les dossiers et vérifiez que ces utilisateurs peuvent accéder au partage et créer un fichier.</p>
 </div>
 </div>
@@ -931,35 +972,10 @@ Vous pouvez créer des volumes NFS ou CIFS uniquement lors de l&#8217;utilisatio
 <div class="sect2">
 <h3 id="limites">Limites</h3>
 <div class="paragraph">
-<p>Certaines fonctionnalités de System Manager ne sont pas prises en charge avec les clusters ONTAP sur site lors de l&#8217;utilisation de l&#8217;affichage avancé dans BlueXP :</p>
+<p>Certaines fonctionnalités de System Manager ne sont pas prises en charge avec les clusters ONTAP sur site lors de l&#8217;utilisation de la vue avancée dans BlueXP.</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Configuration du cluster</p>
 <div class="paragraph">
-<p>Une fois que vous avez défini l&#8217;adresse IP de gestion et configuré le mot de passe d&#8217;administration sur un cluster ONTAP sur site, vous pouvez découvrir le cluster dans BlueXP, puis poursuivre la configuration du cluster depuis la vue avancée.</p>
-</div>
-</li>
-<li>
-<p>Activation de Cloud Backup</p>
-<div class="paragraph">
-<p>Activez Cloud Backup sur un cluster sur site directement à partir de Cloud Backup. <a href="https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html" target="_blank" rel="noopener">"Découvrez comment démarrer"</a>.</p>
-</div>
-</li>
-<li>
-<p>Mises à niveau à la demande</p>
-<div class="paragraph">
-<p>Les mises à niveau à la demande des firmwares et des logiciels ne sont pas disponibles.</p>
-</div>
-</li>
-<li>
-<p>Contrôle d&#8217;accès basé sur des rôles</p>
-<div class="paragraph">
-<p>Le contrôle d&#8217;accès basé sur des rôles depuis System Manager n&#8217;est pas pris en charge.</p>
-</div>
-</li>
-</ul>
+<p><a href="reference-limitations.html">"Consultez la liste des limites"</a>.</p>
 </div>
 </div>
 <div class="sect2">

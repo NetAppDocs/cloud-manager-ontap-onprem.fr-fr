@@ -355,6 +355,31 @@
 
 
 
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/fr-fr/cloud-manager-ontap-onprem/pdfs/sidebar/Notes_de_mise_à_jour.pdf" 
+            
+          >
+            <img src="/fr-fr/cloud-manager-ontap-onprem/images/pdf.png" alt="" width="16" height="16"/>
+            Notes de mise à jour
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
 
 
     
@@ -495,11 +520,27 @@
       </a></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="Notes de mise à jour"
-      data-li-level="1#" 
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Notes de mise à jour</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Quoi de neuf"
+      data-li-level="2#" 
       class=" "
     ><a class="na-navbar-padding" href="/fr-fr/cloud-manager-ontap-onprem/whats-new.html">
-        Notes de mise à jour
+        Quoi de neuf
       </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Limites connues"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/fr-fr/cloud-manager-ontap-onprem/reference-limitations.html">
+        Limites connues
+      </a></li></ul></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="Commencez"
       data-li-level="1" 
@@ -667,7 +708,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-12-05 17:39:27 +0000">12/05/2022</time>
+    <time datetime="2022-12-06 18:07:33 +0000">12/06/2022</time>
     
   
 
@@ -681,35 +722,23 @@
 <p>Si vous avez découvert votre cluster ONTAP sur site directement sans utiliser de connecteur, vous pouvez ouvrir l&#8217;environnement de travail pour gérer le cluster à l&#8217;aide de System Manager.</p>
 </div>
 <div class="paragraph">
-<p>Les fonctions suivantes de System Manager ne sont pas disponibles :</p>
+<div class="title">Limites</div>
+<p>Quelques fonctions de System Manager ne sont pas prises en charge par BlueXP.</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Recherche globale</p>
-</li>
-<li>
-<p>L&#8217;intégration de Digital Advisor (anciennement Active IQ) comprend des informations sur les risques et la résolution des problèmes, l&#8217;historique d&#8217;utilisation de la capacité, des notifications de disponibilité du firmware et la possibilité d&#8217;afficher des dossiers de support ouverts</p>
-</li>
-<li>
-<p>Paramètres de l&#8217;interface utilisateur</p>
-</li>
-<li>
-<p>Widget cloud</p>
-</li>
-<li>
-<p>Mises à niveau manuelles du ONTAP et du firmware</p>
-</li>
-<li>
-<p>Intégration avec Cloud Backup</p>
-</li>
-</ul>
+<div class="paragraph">
+<p><a href="reference-limitations.html">"Consultez la liste des limites"</a>.</p>
 </div>
 <div class="olist arabic">
 <div class="title">Étapes</div>
 <ol class="arabic">
 <li>
 <p>Sur la page Canevas, double-cliquez sur le nom d&#8217;un environnement de travail ONTAP sur site.</p>
+</li>
+<li>
+<p>Indiquez vos identifiants ONTAP.</p>
+<div class="paragraph">
+<p>Chaque fois que vous ouvrez l&#8217;environnement de travail, vous êtes invité à vous connecter avec vos identifiants ONTAP.</p>
+</div>
 </li>
 <li>
 <p>Utilisez System Manager pour gérer ONTAP.</p>

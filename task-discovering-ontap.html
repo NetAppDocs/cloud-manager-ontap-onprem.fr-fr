@@ -355,6 +355,31 @@
 
 
 
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/fr-fr/cloud-manager-ontap-onprem/pdfs/sidebar/Notes_de_mise_à_jour.pdf" 
+            
+          >
+            <img src="/fr-fr/cloud-manager-ontap-onprem/images/pdf.png" alt="" width="16" height="16"/>
+            Notes de mise à jour
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
 
 
     
@@ -495,11 +520,27 @@
       </a></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="Notes de mise à jour"
-      data-li-level="1#" 
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Notes de mise à jour</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Quoi de neuf"
+      data-li-level="2#" 
       class=" "
     ><a class="na-navbar-padding" href="/fr-fr/cloud-manager-ontap-onprem/whats-new.html">
-        Notes de mise à jour
+        Quoi de neuf
       </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Limites connues"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/fr-fr/cloud-manager-ontap-onprem/reference-limitations.html">
+        Limites connues
+      </a></li></ul></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="Commencez"
       data-li-level="1" 
@@ -667,7 +708,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-12-05 18:19:26 +0000">12/05/2022</time>
+    <time datetime="2022-12-06 18:07:33 +0000">12/06/2022</time>
     
   
 
@@ -703,7 +744,7 @@
 <p>La vue Standard, qui fournit les opérations de base du volume</p>
 </li>
 <li>
-<p>La vue avancée, qui permet la gestion via System Manager</p>
+<p>L&#8217;affichage avancé, qui permet une gestion via System Manager (pris en charge par ONTAP 9.10.0 et versions ultérieures)</p>
 </li>
 <li>
 <p>Intégration avec les services de données BlueXP, qui assurent la réplication, la sauvegarde et la restauration, la classification et le Tiering des données</p>
@@ -711,18 +752,18 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>Un connecteur doit être installé dans un fournisseur cloud ou sur site.</p>
+<p>Un connecteur doit être installé dans un fournisseur cloud ou sur site. <a href="Détecter les clusters à l&.html#8217;aide d&#8217;un connecteur">Passez en revue les exigences et les instructions détaillées ci-dessous</a>.</p>
 </div>
 </div>
 </div>
 </dd>
 <dt class="hdlist1">Découverte directe</dt>
 <dd>
-<p>Cette option vous permet de gérer le cluster à l&#8217;aide de System Manager. Aucune autre option de gestion n&#8217;est disponible.</p>
+<p>Cette option vous permet de gérer le cluster à l&#8217;aide de System Manager. Aucune autre option de gestion n&#8217;est disponible. Vous ne pouvez pas utiliser la vue Standard et vous ne pouvez pas activer les services de données.</p>
 <div class="openblock">
 <div class="content">
 <div class="paragraph">
-<p>Cette option ne nécessite pas de connecteur.</p>
+<p>Cette option ne nécessite pas de connecteur. <a href="#détecter-directement-les-clusters">Passez en revue les exigences et les instructions détaillées ci-dessous</a>.</p>
 </div>
 </div>
 </div>
@@ -731,6 +772,9 @@
 </div>
 <div class="paragraph">
 <p>Une fois découverts, vos clusters sont disponibles sous forme d&#8217;environnement de travail sur BlueXP Canvas.</p>
+</div>
+<div class="paragraph">
+<p>Si vous décidez d&#8217;utiliser l&#8217;autre option de détection ultérieurement, vous devrez découvrir le cluster sur site comme un environnement de travail séparé sur la toile. Vous avez ensuite la possibilité de supprimer l&#8217;autre environnement de travail.</p>
 </div>
 </div>
 </div>
@@ -770,9 +814,9 @@
 </li>
 <li>
 <p>Vous avez besoin de l&#8217;adresse IP de gestion de cluster et du mot de passe du compte utilisateur admin pour ajouter le cluster à BlueXP.</p>
-<div class="paragraph">
+</li>
+<li>
 <p>BlueXP détecte les clusters ONTAP via HTTPS. Si vous utilisez des stratégies de pare-feu personnalisées, elles doivent répondre aux exigences suivantes :</p>
-</div>
 <div class="ulist">
 <ul>
 <li>
@@ -822,7 +866,8 @@
 </ol>
 </div>
 <div class="paragraph">
-<p>BlueXP découvre le cluster et l&#8217;ajoute à un environnement de travail dans le Canvas.</p>
+<div class="title">Résultat</div>
+<p>BlueXP découvre le cluster et l&#8217;ajoute comme un environnement de travail sur la toile.</p>
 </div>
 <div class="paragraph">
 <p><a href="task-manage-ontap-connector.html">"Apprenez à gérer les clusters"</a>.</p>
@@ -857,13 +902,19 @@ Lorsque vous accédez à System Manager sur un cluster ONTAP sur site fonctionna
 </div>
 </li>
 <li>
-<p>Le cluster ONTAP sur site doit fonctionner 9.12.1 ou version ultérieure et être connecté au service BlueXP.</p>
+<p>Le cluster sur site doit exécuter ONTAP 9.12.1 ou une version ultérieure.</p>
+</li>
+<li>
+<p>Le cluster doit disposer d&#8217;une connectivité entrante et sortante vers le service BlueXP :</p>
+<div class="paragraph">
+<p>https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection</p>
+</div>
 </li>
 <li>
 <p>Vous avez besoin de l&#8217;adresse IP de gestion du cluster et du mot de passe du compte utilisateur admin.</p>
-<div class="paragraph">
+</li>
+<li>
 <p>BlueXP détecte les clusters ONTAP via HTTPS. Si vous utilisez des politiques de pare-feu personnalisées, le cluster ONTAP doit autoriser l&#8217;accès HTTPS entrant via le port 443.</p>
-</div>
 <div class="paragraph">
 <p>La stratégie de pare-feu " mgmt " par défaut permet l&#8217;accès HTTPS entrant à partir de toutes les adresses IP. Si vous avez modifié cette stratégie par défaut ou si vous avez créé votre propre stratégie de pare-feu, vous devez associer le protocole HTTPS à cette politique et activer l&#8217;accès à partir de l&#8217;hôte du connecteur.</p>
 </div>
@@ -888,7 +939,8 @@ Lorsque vous accédez à System Manager sur un cluster ONTAP sur site fonctionna
 </ol>
 </div>
 <div class="paragraph">
-<p>BlueXP découvre le cluster et l&#8217;ajoute à un environnement de travail dans le Canvas.</p>
+<div class="title">Résultat</div>
+<p>BlueXP découvre le cluster et l&#8217;ajoute comme un environnement de travail sur la toile.</p>
 </div>
 <div class="paragraph">
 <p><a href="task-manage-ontap-direct.html">"Apprenez à gérer les clusters"</a>.</p>
