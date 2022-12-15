@@ -442,4 +442,6 @@
   <block id="059eb0e13bd9e186363bedd175a5226b" category="list-text">Indiquez vos identifiants ONTAP.</block>
   <block id="e62e400b7f916eb360e1c51ccb93a44f" category="paragraph">Chaque fois que vous ouvrez l'environnement de travail, vous êtes invité à vous connecter avec vos identifiants ONTAP.</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Quoi de neuf</block>
+  <block id="03be90bdc455bf51f8b56b71203c2e11" category="list-text">L'ordinateur que vous utilisez pour accéder à la console BlueXP doit disposer d'une connexion réseau au cluster ONTAP sur site, de la même manière que vous pouvez fournir des connexions à d'autres ressources de votre réseau privé.</block>
+  <block id="9b97b7bd5e0a87be7bf218224ada83cf" category="paragraph-title">Conditions requises</block>
 </blocks>
