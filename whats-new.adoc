@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
-summary: Découvrez les nouveautés des clusters ONTAP sur site. 
+summary: Découvrez les nouveautés de la gestion de clusters ONTAP sur site dans BlueXP. 
 ---
 = Nouveautés des clusters ONTAP sur site
 :hardbreaks:
@@ -15,6 +15,18 @@ summary: Découvrez les nouveautés des clusters ONTAP sur site.
 
 [role="lead"]
 Découvrez les nouveautés de la gestion de clusters ONTAP sur site dans BlueXP (anciennement Cloud Manager).
+
+
+
+== 1er janvier 2023
+
+
+
+=== Enregistrer les informations d'identification ONTAP
+
+Lorsque vous ouvrez un environnement de travail ONTAP sur site qui a été découvert directement sans utiliser de connecteur, il est désormais possible d'enregistrer les identifiants du cluster ONTAP. Il n'est donc pas nécessaire de les saisir à chaque ouverture de l'environnement de travail.
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["En savoir plus sur cette option."]
 
 
 
@@ -86,7 +98,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-administer-advance
 
 
 
-=== Un onglet « ONTAP sur site » est disponible dans le portefeuille numérique.
+=== Un onglet « ONTAP sur site » est disponible dans le portefeuille numérique
 
 Vous pouvez désormais afficher un inventaire de vos clusters ONTAP sur site ainsi que les dates d'expiration de leur matériel et de leurs contrats de service. Des informations supplémentaires sur les clusters sont également disponibles.
 
@@ -98,7 +110,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 
 
-=== Les balises que vous ajoutez aux volumes de clusters ONTAP sur site peuvent être utilisées avec le service de balisage.
+=== Les balises que vous ajoutez aux volumes de clusters ONTAP sur site peuvent être utilisées avec le service de balisage
 
 Les balises que vous ajoutez à un volume sont désormais associées à la fonction de balisage du service modèles d'applications, qui peut vous aider à organiser et simplifier la gestion de vos ressources.
 

@@ -214,7 +214,6 @@
   <block id="1708a7899dbb54c155b6283363ffb7ca" category="section-title">Fonctionnement de Digital Advisor avec BlueXP</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Documentation de Digital Advisor</block>
   <block id="0d3c9b9e85d797576ff3dd7d69000330" category="paragraph">Reportez-vous à la section<block ref="ec9c12602878d9d46f06e78e6704d9d1" category="inline-link-rx"></block> pour plus d'informations.</block>
-  <block id="1e54529331fefb19128d41707045a526" category="summary">Découvrez les nouveautés des clusters ONTAP sur site.</block>
   <block id="25203f9c21dc384a4870095f19f67811" category="doc">Nouveautés des clusters ONTAP sur site</block>
   <block id="d63b0151e702212770ee1a0579665bc6" category="paragraph">Découvrez les nouveautés de la gestion de clusters ONTAP sur site dans BlueXP (anciennement Cloud Manager).</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18 septembre 2022</block>
@@ -236,12 +235,10 @@
   <block id="f303a87fe6efba259b752f5a9e11064b" category="inline-link">En savoir plus sur la vue avancée</block>
   <block id="677a2aadb254e7c4efbc10a593c2f4db" category="paragraph"><block ref="869a420ba883bbe1b303fc03706f8b2f" category="inline-link-rx"></block>.</block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">27 février 2022</block>
-  <block id="f25694bb9bc00e8fcfcc1a3c65dd482b" category="section-title">Un onglet « ONTAP sur site » est disponible dans le portefeuille numérique.</block>
   <block id="d3f07c4c7baf0c60bc64c1cdc48732af" category="paragraph">Vous pouvez désormais afficher un inventaire de vos clusters ONTAP sur site ainsi que les dates d'expiration de leur matériel et de leurs contrats de service. Des informations supplémentaires sur les clusters sont également disponibles.</block>
   <block id="184ca21b83c54a7ba12f9b1077ccb494" category="inline-link">Découvrez comment visualiser les informations importantes concernant votre cluster sur site</block>
   <block id="a70e816a0245e4c041fe696bc068fde8" category="paragraph"><block ref="cdf49294fa22fe97f3cd9774fbb3d925" category="inline-link-rx"></block>. Vous devez disposer d'un compte sur le site de support NetApp pour les clusters, et vous devez joindre les identifiants NSS à votre compte Cloud Manager.</block>
   <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">11 janvier 2022</block>
-  <block id="d69df284f21ccdf93082c4aaf0953b6d" category="section-title">Les balises que vous ajoutez aux volumes de clusters ONTAP sur site peuvent être utilisées avec le service de balisage.</block>
   <block id="3686b84bef4027bfe5a11fcf472d8662" category="paragraph">Les balises que vous ajoutez à un volume sont désormais associées à la fonction de balisage du service modèles d'applications, qui peut vous aider à organiser et simplifier la gestion de vos ressources.</block>
   <block id="f61163b681442ac500a8018c87241770" category="section-title">28 novembre 2021</block>
   <block id="feea05ef76a2f6f2d444dfab436c31c4" category="section-title">Il a été simplifié l'assistant de création de volumes pour les clusters ONTAP sur site</block>
@@ -440,8 +437,18 @@
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">Avant de commencer</block>
   <block id="bc3d7bdad28e2f8cac321d5cae0b897c" category="paragraph">Quelques fonctions de System Manager ne sont pas prises en charge par BlueXP.</block>
   <block id="059eb0e13bd9e186363bedd175a5226b" category="list-text">Indiquez vos identifiants ONTAP.</block>
-  <block id="e62e400b7f916eb360e1c51ccb93a44f" category="paragraph">Chaque fois que vous ouvrez l'environnement de travail, vous êtes invité à vous connecter avec vos identifiants ONTAP.</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Quoi de neuf</block>
   <block id="03be90bdc455bf51f8b56b71203c2e11" category="list-text">L'ordinateur que vous utilisez pour accéder à la console BlueXP doit disposer d'une connexion réseau au cluster ONTAP sur site, de la même manière que vous pouvez fournir des connexions à d'autres ressources de votre réseau privé.</block>
   <block id="9b97b7bd5e0a87be7bf218224ada83cf" category="paragraph-title">Conditions requises</block>
+  <block id="a3df9ba5a49f94fff6553063f65ca85c" category="summary">Découvrez les nouveautés de la gestion de clusters ONTAP sur site dans BlueXP.</block>
+  <block id="1f7138998459804601fc351f8d442e29" category="section-title">1er janvier 2023</block>
+  <block id="f2e4e4f7b0b864863bfac74f4383a826" category="section-title">Enregistrer les informations d'identification ONTAP</block>
+  <block id="6a28e623eb98d9eb0799ab2c472620f3" category="paragraph">Lorsque vous ouvrez un environnement de travail ONTAP sur site qui a été découvert directement sans utiliser de connecteur, il est désormais possible d'enregistrer les identifiants du cluster ONTAP. Il n'est donc pas nécessaire de les saisir à chaque ouverture de l'environnement de travail.</block>
+  <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">En savoir plus sur cette option.</block>
+  <block id="b269330dc42e4f7fc82bba99c0dd5fd7" category="paragraph"><block ref="b269330dc42e4f7fc82bba99c0dd5fd7" category="inline-link-rx"></block></block>
+  <block id="c09e2822c570628d904cc9ae1b81258c" category="section-title">Un onglet « ONTAP sur site » est disponible dans le portefeuille numérique</block>
+  <block id="884e6fc7085a6b2763738e713000a65f" category="section-title">Les balises que vous ajoutez aux volumes de clusters ONTAP sur site peuvent être utilisées avec le service de balisage</block>
+  <block id="a3712341ec8d6b2a8227c05fca90e65c" category="paragraph">Chaque fois que vous ouvrez l'environnement de travail, vous êtes invité à vous connecter avec vos identifiants ONTAP. Vous avez la possibilité d'enregistrer les informations d'identification afin que vous n'ayez pas besoin de les saisir à chaque fois. Si vous utilisez cette option, les informations d'identification sont uniquement associées à votre utilisateur BlueXP. Ils ne sont pas enregistrés pour être utilisés par quelqu'un d'autre de votre compte.</block>
+  <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">Copie d'écran affichant l'invite de saisie du nom d'utilisateur et du mot de passe d'un cluster ONTAP.</block>
+  <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

@@ -28,7 +28,10 @@ link:reference-limitations.html["Consultez la liste des limites"].
 . Sur la page Canevas, double-cliquez sur le nom d'un environnement de travail ONTAP sur site.
 . Indiquez vos identifiants ONTAP.
 +
-Chaque fois que vous ouvrez l'environnement de travail, vous êtes invité à vous connecter avec vos identifiants ONTAP.
+Chaque fois que vous ouvrez l'environnement de travail, vous êtes invité à vous connecter avec vos identifiants ONTAP. Vous avez la possibilité d'enregistrer les informations d'identification afin que vous n'ayez pas besoin de les saisir à chaque fois. Si vous utilisez cette option, les informations d'identification sont uniquement associées à votre utilisateur BlueXP. Ils ne sont pas enregistrés pour être utilisés par quelqu'un d'autre de votre compte.
+
++
+image:screenshot-credentials.png["Copie d'écran affichant l'invite de saisie du nom d'utilisateur et du mot de passe d'un cluster ONTAP."]
 
 . Utilisez System Manager pour gérer ONTAP.
 +
