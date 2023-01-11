@@ -22,7 +22,7 @@ Découvrez les clusters ONTAP sur site de BlueXP, qui vous permettent de commenc
 
 BlueXP offre deux façons de découvrir et de gérer vos clusters ONTAP sur site :
 
-Découverte via un connecteur:: Cette option vous permet de gérer les clusters qui exécutent ONTAP 8.3 à l'aide des fonctionnalités suivantes :
+Découverte via un connecteur:: Cette option vous permet de gérer les clusters qui exécutent ONTAP 8.3 et versions ultérieures à l'aide des fonctionnalités suivantes :
 +
 --
 * La vue Standard, qui fournit les opérations de base du volume
