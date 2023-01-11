@@ -329,7 +329,6 @@
   <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">Options de découverte et de gestion</block>
   <block id="a8b4b8a9fc6c5671a89f402cc069afda" category="paragraph">BlueXP offre deux façons de découvrir et de gérer vos clusters ONTAP sur site :</block>
   <block id="a8fd54ba8c2928ea1b2a300ca75a00fa" category="list-text">Découverte via un connecteur</block>
-  <block id="9099bf7c5b970d6d29d762b19812bc2a" category="list-text">Cette option vous permet de gérer le cluster à l'aide des fonctionnalités suivantes :</block>
   <block id="dad407e605b93746e62dec356ab5303e" category="list-text">La vue Standard, qui fournit les opérations de base du volume</block>
   <block id="90050bf1ae850c8b086b4d648fb45152" category="list-text">Intégration avec les services de données BlueXP, qui assurent la réplication, la sauvegarde et la restauration, la classification et le Tiering des données</block>
   <block id="95ef150c4c1c6bc6be1dda757b58c70c" category="paragraph">Un connecteur doit être installé dans un fournisseur cloud ou sur site.</block>
@@ -422,7 +421,6 @@
   <block id="05280ae0f52dfc03d23962982cf79f21" category="list-text">L'affichage avancé, qui permet une gestion via System Manager (pris en charge par ONTAP 9.10.0 et versions ultérieures)</block>
   <block id="18913a11bfb9265ce650e9b06d80da69" category="inline-xref">Passez en revue les exigences et les instructions détaillées ci-dessous</block>
   <block id="b96973ab12dad5cf917d59fa426d501e" category="paragraph">Un connecteur doit être installé dans un fournisseur cloud ou sur site. <block ref="578fb4b6eccb6dc6ce978336e196fff7" category="inline-xref-macro-rx"></block>.</block>
-  <block id="48162a37cddfdaa963ac3204f7595591" category="list-text">Cette option vous permet de gérer le cluster à l'aide de System Manager. Aucune autre option de gestion n'est disponible. Vous ne pouvez pas utiliser la vue Standard et vous ne pouvez pas activer les services de données.</block>
   <block id="be7a52baf7d7b7389782214033190cd4" category="paragraph">Cette option ne nécessite pas de connecteur. <block ref="0820951a94f165da4a5239e04ce4e106" category="inline-xref-macro-rx"></block>.</block>
   <block id="797c4c6d452fc60610219b263c22393d" category="paragraph">Si vous décidez d'utiliser l'autre option de détection ultérieurement, vous devrez découvrir le cluster sur site comme un environnement de travail séparé sur la toile. Vous avez ensuite la possibilité de supprimer l'autre environnement de travail.</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Résultat</block>
@@ -451,4 +449,7 @@
   <block id="a3712341ec8d6b2a8227c05fca90e65c" category="paragraph">Chaque fois que vous ouvrez l'environnement de travail, vous êtes invité à vous connecter avec vos identifiants ONTAP. Vous avez la possibilité d'enregistrer les informations d'identification afin que vous n'ayez pas besoin de les saisir à chaque fois. Si vous utilisez cette option, les informations d'identification sont uniquement associées à votre utilisateur BlueXP. Ils ne sont pas enregistrés pour être utilisés par quelqu'un d'autre de votre compte.</block>
   <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">Copie d'écran affichant l'invite de saisie du nom d'utilisateur et du mot de passe d'un cluster ONTAP.</block>
   <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2a921d78113b3701fe44f302cea12ade" category="list-text">Cette option vous permet de gérer les clusters qui exécutent ONTAP 8.3 à l'aide des fonctionnalités suivantes :</block>
+  <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">Cette option vous permet de gérer les clusters qui exécutent ONTAP 9.12.1 et versions ultérieures via System Manager. Aucune autre option de gestion n'est disponible. Vous ne pouvez pas utiliser la vue Standard et vous ne pouvez pas activer les services de données.</block>
+  <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">Le cluster sur site doit exécuter ONTAP 8.3 ou une version ultérieure.</block>
 </blocks>
